@@ -1,1 +1,1 @@
-ATTRS{manufacturer}=="", ATTRS{product}=="", ATTRS{idProduct}=="", ATTRS{idVendor}=="", ATTRS{serial}=="", KERNEL=="sd?1", NAME="usb-hdd", RUN+="/home/${USER}/Code/udev-scripts/bin/mount_and_decrypt.py"
+ATTRS{manufacturer}=="", ATTRS{product}=="", ATTRS{idProduct}=="", ATTRS{idVendor}=="", ATTRS{serial}=="", KERNEL=="sd?1", NAME="usb-hdd", RUN+="/usr/bin/mount -o gid=users,uid=user,fmask=113,dmask=022 /home/user/Desktop/point"
